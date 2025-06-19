@@ -1,18 +1,6 @@
-name: Windows Build and Test
+name: My Windows Build
 
 on:
-  push:
-    paths-ignore:
-      - 'doc/**'
-      - 'docker/**'
-      - 'traces/**'
-      - '.vscode/**'
-  pull_request:
-    paths-ignore:
-      - 'doc/**'
-      - 'docker/**'
-      - 'traces/**'
-      - '.vscode/**'
   workflow_dispatch:
 
 
